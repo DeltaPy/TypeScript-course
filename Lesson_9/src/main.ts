@@ -141,6 +141,6 @@ type fetchUsersReturnType = ReturnType<typeof fetchUsers>;
 
 type fetchUsersReturnType2 = Awaited<ReturnType<typeof fetchUsers>>;
 
-fetchUsers().then((data) => console.log(data)
+fetchUsers().then((data) => console.log(data));
 
 
